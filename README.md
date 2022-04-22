@@ -1,6 +1,6 @@
 # pythonPracticeC
 ## What's this project about?
-Recap of University of Python course, with the most important Python basics, exception treatment, classes design and a final capstone project
+Recap of the University of Python course, with the most important Python basics, exception treatment, classes design and a final capstone project.
 ## What are the different parts of the capstone project?
 The capstone project consists of.
 - Two classes (garden and plants) and 1 superclass of plants for processed products.
