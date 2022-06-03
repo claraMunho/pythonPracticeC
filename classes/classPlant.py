@@ -6,13 +6,23 @@ class Plant:
         cls.numberPlants += 1
         return cls.numberPlants
 
-    def __init__(self, plantName, waterIntake, *uses):
+    def __init__(self, idPlant, plantName, waterIntake, *uses):
+        self._idPlant = idPlant
         self._numberPlants = Plant.countPlants()
         self._plantName = plantName
         self._waterIntake = waterIntake
         self._uses = list(uses)
     def __str__(self):
-        return f'Name: {self._plantName}. Water intake: {self._waterIntake} liters per month. Uses: {self._uses}'
+        return f'Id. {self._idPlant} Name: {self._plantName}. Water intake: {self._waterIntake} liters per month. Uses: {self._uses}'
+
+    @property
+    def idPlant(self):
+        return self.idPlant
+
+    @idPlant.setter
+    def idPlant(self, idPlant):
+        self.idPlant = idPlant
+
     @property
     def plantName(self):
         return self._plantName
