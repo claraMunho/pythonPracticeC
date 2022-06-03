@@ -1,6 +1,6 @@
 from classes.classPlant import Plant
 from classes.classGarden import Garden
-from classes.processedProducts import ProcessedProducts
+from classes.classProcessedProducts import ProcessedProducts
 from exceptions import NotEnoughWater
 
 gardenia = Plant('Gardenia', 20, 'Medicinal', 'Decorative') #Add a plant
