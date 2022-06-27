@@ -1,0 +1,149 @@
+05:37:36 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:37:36 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000230BCC33B20>
+05:37:36 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000230BCC248C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:37:36 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:37:36 PM: DEBUG [classCursor.py:22] Commit de la transacción
+05:37:36 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x00000230BCC248C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:38:11 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:38:11 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000016125248C10>
+05:38:11 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001612521C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:38:11 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:38:11 PM: DEBUG [classCursor.py:22] Commit de la transacción
+05:38:11 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001612521C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:38:21 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:38:21 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001EDFEA38C10>
+05:38:21 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001EDFEA0C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:38:21 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:38:21 PM: DEBUG [classCursor.py:22] Commit de la transacción
+05:38:21 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001EDFEA0C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:42:02 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:42:02 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000276FD3E8C10>
+05:42:02 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000276FD3BC8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:42:02 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:42:02 PM: ERROR [classCursor.py:19] Ocurrió una excepción: tuple index out of range <class 'IndexError'> <traceback object at 0x00000276FD3F9440>
+05:42:24 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:42:24 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000020448058C10>
+05:42:24 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000204480288C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:42:24 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:42:24 PM: ERROR [classCursor.py:19] Ocurrió una excepción: tuple index out of range <class 'IndexError'> <traceback object at 0x00000204480692C0>
+05:42:40 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:42:40 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000024940A14C40>
+05:42:40 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000249409EC8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:42:40 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:42:40 PM: ERROR [classCursor.py:19] Ocurrió una excepción: tuple index out of range <class 'IndexError'> <traceback object at 0x0000024940A29440>
+05:42:46 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:42:46 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002A765F88C10>
+05:42:46 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000002A765F5C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:42:46 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:42:46 PM: ERROR [classCursor.py:19] Ocurrió una excepción: tuple index out of range <class 'IndexError'> <traceback object at 0x000002A765F990C0>
+05:43:20 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:43:20 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000019293F28F70>
+05:43:20 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000019293F15580; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:43:58 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:43:58 PM: ERROR [classCursor.py:19] Ocurrió una excepción:  <class 'KeyboardInterrupt'> <traceback object at 0x00000192941D3800>
+05:43:59 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:43:59 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000126459A8C10>
+05:43:59 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001264597C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:43:59 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:43:59 PM: ERROR [classCursor.py:19] Ocurrió una excepción: Garden.__init__() got an unexpected keyword argument 'plants' <class 'TypeError'> <traceback object at 0x00000126459B9000>
+05:44:36 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:44:36 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000233387B4C40>
+05:44:36 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000002333878C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:44:36 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:44:36 PM: ERROR [classCursor.py:19] Ocurrió una excepción: Garden.__init__() got an unexpected keyword argument 'plants' <class 'TypeError'> <traceback object at 0x00000233387C93C0>
+05:45:19 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:45:20 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000026CE3F84C40>
+05:45:20 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000026CE3F5C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:45:20 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:45:20 PM: ERROR [classCursor.py:19] Ocurrió una excepción: Garden.__init__() got an unexpected keyword argument 'plants' <class 'TypeError'> <traceback object at 0x0000026CE3F99300>
+05:46:44 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:46:44 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001DE75E04CA0>
+05:46:44 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001DE75DDC8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:46:44 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:46:44 PM: ERROR [classCursor.py:19] Ocurrió una excepción: Garden.__init__() got an unexpected keyword argument 'plants' <class 'TypeError'> <traceback object at 0x000001DE75E19340>
+05:46:59 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:46:59 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000024A823D8F70>
+05:46:59 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000024A823C5580; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:50:00 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:50:00 PM: ERROR [classCursor.py:19] Ocurrió una excepción:  <class 'KeyboardInterrupt'> <traceback object at 0x0000024A825BE280>
+05:50:19 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:50:19 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022EDF364CD0>
+05:50:19 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000022EDF33C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:50:19 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:50:19 PM: ERROR [classCursor.py:19] Ocurrió una excepción: Garden.__init__() got an unexpected keyword argument 'plants' <class 'TypeError'> <traceback object at 0x0000022EDF379180>
+05:50:54 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:50:54 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001A60CD04CD0>
+05:50:54 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001A60CCDC8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:50:54 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:50:54 PM: ERROR [classCursor.py:19] Ocurrió una excepción: Garden.__init__() got an unexpected keyword argument 'plants' <class 'TypeError'> <traceback object at 0x000001A60CD19180>
+05:52:16 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:52:17 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000016037EF4CD0>
+05:52:17 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000016037ECC8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:52:17 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:52:17 PM: ERROR [classCursor.py:19] Ocurrió una excepción: Garden.__init__() got an unexpected keyword argument 'plants' <class 'TypeError'> <traceback object at 0x0000016037F05400>
+05:52:54 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:52:54 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000166E7344C70>
+05:52:54 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000166E731C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:52:54 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:52:54 PM: ERROR [classCursor.py:19] Ocurrió una excepción: Garden.__init__() got an unexpected keyword argument 'plants' <class 'TypeError'> <traceback object at 0x00000166E7358D80>
+05:54:49 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:54:49 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000012AEB768C10>
+05:54:49 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000012AEB73C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:54:49 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:54:49 PM: DEBUG [classCursor.py:22] Commit de la transacción
+05:54:49 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x0000012AEB73C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:54:58 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:54:58 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000157E4C48F70>
+05:54:58 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000157E4C35580; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:56:05 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:56:05 PM: ERROR [classCursor.py:19] Ocurrió una excepción:  <class 'KeyboardInterrupt'> <traceback object at 0x00000157E4EF10C0>
+05:56:06 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:56:06 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002153B1CCB80>
+05:56:06 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000002153B19C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:56:06 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:56:06 PM: DEBUG [classCursor.py:22] Commit de la transacción
+05:56:06 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000002153B19C8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:56:29 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:56:30 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001E9A6568F70>
+05:56:30 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001E9A6555580; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:58:25 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:58:33 PM: DEBUG [classCursor.py:22] Commit de la transacción
+05:58:35 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001E9A6555580; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:59:09 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+05:59:09 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002276A61CB80>
+05:59:09 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000002276A5EC8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+05:59:09 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+05:59:09 PM: DEBUG [classCursor.py:22] Commit de la transacción
+05:59:09 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000002276A5EC8C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+06:09:13 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+06:09:13 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000186C6ED5570>
+06:09:13 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000186C6EB08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+06:09:13 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+06:09:13 PM: DEBUG [classCursor.py:22] Commit de la transacción
+06:09:13 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x00000186C6EB08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+06:09:51 PM: DEBUG [DAOgarden.py:38] [('Hola', 'Cara', 'Cola')]
+06:09:51 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+06:09:51 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000218C9345600>
+06:09:51 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000218C93208C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+06:09:51 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+06:09:51 PM: DEBUG [classCursor.py:22] Commit de la transacción
+06:09:51 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x00000218C93208C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+06:10:47 PM: DEBUG [DAOgarden.py:38] [('Hola', 'Cara', 'Cola')]
+06:11:03 PM: DEBUG [DAOgarden.py:38] [(1, 2, 3)]
+06:11:31 PM: DEBUG [DAOgarden.py:38] [(1, 2, 3, 4)]
+06:12:30 PM: DEBUG [DAOgarden.py:39] [(1, 2, 3, 4)]
+06:15:24 PM: DEBUG [DAOgarden.py:38] [(1, 2, 3, 4)]
+06:15:57 PM: DEBUG [DAOgarden.py:38] [1, 2, 4]
+06:16:09 PM: DEBUG [DAOgarden.py:38] ['Ho', 'La']
+06:18:10 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:18:19 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:18:30 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:18:44 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:18:50 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:20:32 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:20:58 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:21:08 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:21:15 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:21:30 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:22:31 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
+06:23:03 PM: DEBUG [DAOgarden.py:36] ['Ho', 'La']
