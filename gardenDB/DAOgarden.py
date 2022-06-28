@@ -25,20 +25,16 @@ class GardenDAO:
     @classmethod
     def insert(cls, garden):
         with CursorDelPool() as cursor:
-            log.debug(f'Garden to be inserted: {garden}')
-            values = (garden.surface, garden.plants)
+            values = (garden.surface, 'Aloe')
             cursor.execute(cls._INSERT, values)
-            log.debug(f'Garden inserted: {garden}')
+            log.debug(f'Garden inserted: {garden.idGarden}. Surface: {garden.surface}')
             return cursor.rowcount
 
-
-#
 # if __name__ == '__main__':
 #     #Select
 #     gardens = GardenDAO.select()
 #     for garden in gardens:
 #         log.debug(garden)
-
 
 def converStrToList(*strngs):
     strToList = [str for str in strngs]
