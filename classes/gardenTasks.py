@@ -18,7 +18,7 @@ print(Garden.DEFAULT_FLUID) #Print class constant
 
 aloeCream = ProcessedProducts(1, 'Aloe cream', 30, ('Beauty', 'Skin care'), 'Tin') #Add a processed product, which is a super class of Plant
 print(aloeCream)
-garden1 = Garden(200, gardenia, cactus, aloeCream) #Add a processed product, super class of plant
+garden1 = Garden(None, 200, gardenia, cactus) #Add a processed product, super class of plant
 print(garden1) #The garden has a processed product now
 
 
@@ -32,7 +32,7 @@ def watering(garden, availableWater):
         print(f'{e}') #, type(e))
     else:
         availableWater -= need
-        return availableWater
+    return availableWater
 
 print(f'Remaining water: {watering(garden1,200)}')
 

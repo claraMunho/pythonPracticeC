@@ -30,6 +30,13 @@ class GardenDAO:
             log.debug(f'Garden inserted: {garden.idGarden}. Surface: {garden.surface}')
             return cursor.rowcount
 
+if __name__ == '__main__':
+    #Insert test
+    garden1 = Garden(None, 10, )
+    gardens = GardenDAO.insert(garden1)
+    for garden in gardens:
+        log.debug(garden)
+
 # if __name__ == '__main__':
 #     #Select
 #     gardens = GardenDAO.select()

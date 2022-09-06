@@ -1,3 +1,5 @@
+from logger_base import log
+
 class Garden:
     DEFAULT_FLUID = 'H20' #Class constant
     def __init__(self, idGarden, surface, *plants):
@@ -33,5 +35,5 @@ class Garden:
     def neededWater(self):
         waterNeed = 0.00
         for pl in self._plants:
-            waterNeed += pl._waterIntake
+            waterNeed += pl.waterIntake
         return waterNeed
