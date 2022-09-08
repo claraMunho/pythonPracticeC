@@ -30,7 +30,7 @@ class Garden:
         plantsList = ''
         for pl in self._plants:
             plantsList += pl.__str__() + '\n'
-        return f'This garden has a surface of {self._surface} meters. \nPlants: {plantsList} \nNeeded water: {self.neededWater()} \nId: {self._idGarden}'
+        return f'This garden has a surface of {self._surface} meters. \nPlants: {plantsList} \nNeeded water: {self.neededWater()}'
 
     def neededWater(self):
         waterNeed = 0.00

@@ -25,17 +25,17 @@ class GardenDAO:
     @classmethod
     def insert(cls, garden):
         with CursorDelPool() as cursor:
-            values = (garden.surface, 'Aloe')
+            values = (garden.surface, garden.plants)
             cursor.execute(cls._INSERT, values)
-            log.debug(f'Garden inserted: {garden.idGarden}. Surface: {garden.surface}')
+            log.debug(f'Garden inserted. Surface: {garden.surface}')
             return cursor.rowcount
 
 if __name__ == '__main__':
     #Insert test
-    garden1 = Garden(None, 10, )
-    gardens = GardenDAO.insert(garden1)
-    for garden in gardens:
-        log.debug(garden)
+    garden1 = Garden(None, 10,'Aloe', 'Ficus') #Insert test garden
+    GardenDAO.insert(garden1)
+    GardenDAO.select()
+
 
 # if __name__ == '__main__':
 #     #Select
@@ -52,5 +52,5 @@ def convertListToStr(lst):
     strngJoined = '|'.join(str(e) for e in lst)
     return strngJoined
 #Tests for conversion functions
-strngConverted = converStrToList('Ho', 'La')
-print(convertListToStr(strngConverted))
+# strngConverted = converStrToList('Ho', 'La')
+# print(convertListToStr(strngConverted))

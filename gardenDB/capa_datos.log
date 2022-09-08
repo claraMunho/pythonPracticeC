@@ -1767,3 +1767,473 @@ Id: None
 04:08:58 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001EE7A4308C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
 04:08:58 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
 04:08:58 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x000001EE7A4E3600>
+04:19:34 PM: DEBUG [DAOgarden.py:48] ['Ho', 'La']
+04:19:34 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:19:34 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022A97814F70>
+04:19:34 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000022A977C08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:19:34 PM: DEBUG [DAOplants.py:26] Plant inserted: Id. None Name: Aloe. Water intake: 10 liters per month. Uses: ['Medicine']
+04:19:34 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:19:34 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:19:34 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x0000022A977C08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:19:34 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:19:34 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000022A977C08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:34 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:19:34 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:19:34 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x0000022A977C08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:19:34 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:19:34 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000022A977C08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:19:34 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:19:34 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x0000022A97896D80>
+04:19:49 PM: DEBUG [DAOgarden.py:48] ['Ho', 'La']
+04:19:49 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:19:49 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000261A4080EB0>
+04:19:49 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000261A40508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:19:49 PM: DEBUG [DAOplants.py:26] Plant inserted: Id. None Name: Aloe. Water intake: 10 liters per month. Uses: ['Medicine']
+04:19:49 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:19:49 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:19:49 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x00000261A40508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:19:49 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:19:49 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000261A40508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:19:49 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:19:49 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:19:49 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x00000261A40508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:20:24 PM: DEBUG [DAOgarden.py:48] ['Ho', 'La']
+04:20:24 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:20:24 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000019CA5480EB0>
+04:20:24 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000019CA54508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:20:24 PM: DEBUG [DAOplants.py:26] Plant inserted: Id. None Name: Aloe. Water intake: 10 liters per month. Uses: ['Medicine']
+04:20:24 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:20:24 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:20:24 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x0000019CA54508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:20:24 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:20:24 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000019CA54508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:20:24 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:20:24 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:20:24 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x0000019CA54508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:20:55 PM: DEBUG [DAOgarden.py:48] ['Ho', 'La']
+04:21:03 PM: DEBUG [DAOgarden.py:48] ['Ho', 'La']
+04:21:03 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:21:03 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000219D9980E20>
+04:21:03 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000219D99508C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:21:03 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:21:03 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x00000219D9A02240>
+04:22:27 PM: DEBUG [DAOgarden.py:48] ['Ho', 'La']
+04:23:31 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:23:31 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002120D611C30>
+04:23:31 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000002120D5F08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:23:31 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:23:31 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x000002120D69D1C0>
+04:24:09 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:24:09 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022069821990>
+04:24:09 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000220698008C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:24:09 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:24:09 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x00000220698AD1C0>
+04:28:13 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:28:13 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001A957961870>
+04:28:13 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001A9579408C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:28:13 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:28:13 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x000001A9579ED100>
+04:29:16 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:29:16 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001A25F251870>
+04:29:16 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001A25F2308C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:29:16 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:29:16 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x000001A25F2DD100>
+04:29:54 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:29:54 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000240F0DA1870>
+04:29:54 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x00000240F0D808C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:29:54 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:29:54 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x00000240F0E2D100>
+04:30:38 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:30:38 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000019A69A158A0>
+04:30:38 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000019A699F08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:30:38 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:30:38 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x0000019A69A9D0C0>
+04:30:56 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:30:56 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000014486E35780>
+04:30:56 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000014486E108C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:30:56 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:30:56 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x0000014486EBCF80>
+04:31:04 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:31:04 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001C04D885780>
+04:31:04 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001C04D8608C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:31:04 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:31:04 PM: ERROR [classCursor.py:19] Ocurrió una excepción: invalid input syntax for type integer: "Aloe"
+LINE 1: INSERT INTO garden(surface, plants) VALUES ('Aloe', '{}')
+                                                    ^
+ <class 'psycopg2.errors.InvalidTextRepresentation'> <traceback object at 0x000001C04D895640>
+04:31:17 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:31:17 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001C1F8CF57B0>
+04:31:17 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001C1F8CD08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:31:17 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:31:17 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x000001C1F8D7D280>
+04:31:51 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:31:51 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002D3025C9750>
+04:31:51 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000002D3025A08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:31:51 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:31:51 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x000002D30264D280>
+04:32:00 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:32:00 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000021D861E57B0>
+04:32:00 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000021D861C08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:32:00 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:32:00 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x0000021D8626D0C0>
+04:32:30 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:32:30 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002701FDB57B0>
+04:32:30 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000002701FD908C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:32:30 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:32:30 PM: ERROR [classCursor.py:19] Ocurrió una excepción: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x000002701FE3D0C0>
+04:33:31 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:33:31 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001F4FC805750>
+04:33:31 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001F4FC7E08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:33:31 PM: DEBUG [DAOgarden.py:30] Garden inserted. Surface: 10
+04:33:31 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:33:31 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:33:31 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001F4FC7E08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:33:31 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:33:31 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001F4FC7E08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:33:31 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:33:31 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:33:31 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001F4FC7E08C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:35:30 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:35:30 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000028F8D381780>
+04:35:30 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000028F8D3608C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:35:30 PM: DEBUG [DAOgarden.py:30] Garden inserted. Surface: 10
+04:35:30 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:35:30 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:35:30 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x0000028F8D3608C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:35:30 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:35:30 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000028F8D3608C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:35:30 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:35:30 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:35:30 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x0000028F8D3608C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:36:49 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:36:49 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000024C3DC910F0>
+04:36:49 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x0000024C3DC608C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:36:49 PM: DEBUG [DAOgarden.py:30] Garden inserted. Surface: 20
+04:36:49 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:36:49 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:36:49 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x0000024C3DC608C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:18 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:18 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001E37AB2D300>
+04:37:18 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001E37AB008C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:18 PM: DEBUG [DAOplants.py:26] Plant inserted: Id. None Name: Aloe. Water intake: 10 liters per month. Uses: ['Medicine']
+04:37:18 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:18 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:37:18 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001E37AB008C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:18 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:18 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001E37AB008C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:18 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:18 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:37:18 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001E37AB008C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:18 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:18 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001E37AB008C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:18 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:18 PM: ERROR [classCursor.py:19] Ocurrió una excepción: can't adapt type 'Plant' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001E37AB3AD00>
+04:37:33 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:33 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001FB8C5BD300>
+04:37:33 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001FB8C5908C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:33 PM: DEBUG [DAOplants.py:26] Plant inserted: Id. None Name: Aloe. Water intake: 10 liters per month. Uses: ['Medicine']
+04:37:33 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:33 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:37:33 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001FB8C5908C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:33 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:33 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001FB8C5908C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:33 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:33 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:37:33 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001FB8C5908C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:33 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:33 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001FB8C5908C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:33 PM: DEBUG [DAOgarden.py:30] Garden inserted. Surface: 20
+04:37:33 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:33 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:37:33 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001FB8C5908C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:44 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:44 PM: DEBUG [classConnectionPool.py:27] Conexión de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001A93756D300>
+04:37:44 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001A9375408C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:44 PM: DEBUG [DAOplants.py:26] Plant inserted: Id. None Name: Aloe. Water intake: 10 liters per month. Uses: ['Medicine']
+04:37:44 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:44 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:37:44 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001A9375408C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:44 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:44 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001A9375408C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [DAOplants.py:19] Plant name: Aloe
+04:37:44 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:44 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:37:44 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001A9375408C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:44 PM: DEBUG [classCursor.py:10] Inicio del método with __enter__
+04:37:44 PM: DEBUG [classConnectionPool.py:38] Conexión obtenida del pool: <connection object at 0x000001A9375408C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
+04:37:44 PM: DEBUG [DAOgarden.py:30] Garden inserted. Surface: 10
+04:37:44 PM: DEBUG [classCursor.py:16] Se ejecuta método __exit__
+04:37:44 PM: DEBUG [classCursor.py:22] Commit de la transacción
+04:37:44 PM: DEBUG [classConnectionPool.py:44] Regresamos la conexión al pool: <connection object at 0x000001A9375408C0; dsn: 'user=postgres password=xxx dbname=pythonAprender host=127.0.0.1 port=5432', closed: 0>
