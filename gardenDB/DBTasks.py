@@ -11,6 +11,6 @@ plant1 = Plant(None, 'Aloe', 10, 'Medicine')
 plantDAO.insert(plant1)
 plantDAO.select()
 
-# #Creating a garden, inserting it to the DB and then selecting all the existing gardens in the DB.
+#Creating a garden, inserting it to the DB and then selecting all the existing gardens in the DB.
 garden1 = Garden(None, 10, 'Roses')
 GardenDAO.insert(garden1)

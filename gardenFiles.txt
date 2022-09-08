@@ -1,7 +1,7 @@
 This garden has a surface of 200 meters. 
-Plants: Name: Gardenia. Water intake: 20 liters per month. Uses: ['Medicinal', 'Decorative', 'Beauty', 'Nutrients']
-Name: Cactus. Water intake: 0.1 liters per month. Uses: ['Medicinal', 'Weapon']
-Name: Aloe cream. Water intake: 30 liters per month. Uses: [('Beauty', 'Skin care')] is packed in a Tin
+Plants: Id. 1 Name: Gardenia. Water intake: 20 liters per month. Uses: ['Medicinal', 'Decorative', 'Beauty', 'Nutrients']
+Id. 2 Name: Cactus. Water intake: 0.1 liters per month. Uses: ['Medicinal', 'Weapon']
+Id. 1 Name: Aloe cream. Water intake: 30 liters per month. Uses: [('Beauty', 'Skin care')] is packed in a Tin
  
 Needed water: 50.1 
 Remaining water: 149.9

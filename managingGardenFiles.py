@@ -1,4 +1,9 @@
-from classes.gardenTasks import *
+from wateringManagement import watering
+from classes.classGarden import *
+
+#Function for getting info about a garden
+def getInfo(garden):
+    return garden.__str__()
 
 #Retrieve garden info and print it to garden files
 def retrieveGardenInfo(garden):
@@ -14,5 +19,3 @@ def retrieveGardenInfo(garden):
     finally:
         gardenFile.close()
         print('File closed'.center(50,'-'))
-
-retrieveGardenInfo(garden1)
